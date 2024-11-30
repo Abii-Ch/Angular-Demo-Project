@@ -7,14 +7,11 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
   template: `
     <h1>Welcome to {{title}}!</h1>
-    
+
     <router-outlet />
   `,
   styles: [],
 })
-  export class AppComponent {
-    title = 'cwh-todo-list';
-    constructor() {      
-    }
-  }
-
+export class AppComponent {
+  title = 'first-ng-app';
+}
